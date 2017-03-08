@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombiePong", "ZombiePong\ZombiePong\ZombiePong.csproj", "{BA442536-49D2-4AE5-99F0-716A9C014362}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ZombiePongContent", "ZombiePong\ZombiePongContent\ZombiePongContent.contentproj", "{9434013A-4B39-4A41-B52C-F26112C32C3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombiePongContent", "ZombiePong\ZombiePongContent\ZombiePongContent.contentproj", "{9434013A-4B39-4A41-B52C-F26112C32C3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

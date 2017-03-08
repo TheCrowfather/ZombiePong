@@ -97,6 +97,11 @@ namespace ZombiePong
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+            if (ball.Location.X < 32)
+                {
+                ball.Location = new Vector2(700, 350);
+                    ball.Velocity = new Vector2(30, 0);
+                 }
 
             // TODO: Add your update logic here
             ball.Update(gameTime);
